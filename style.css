@@ -1,0 +1,119 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right,rgb(73, 88, 255),rgb(139, 231, 254));
+    color: #333;
+    font-family: sans-serif;
+}
+
+.profile{
+   color: white;
+    text-decoration: none;
+    margin: 15px;
+    transition: 0.3s ease; 
+    border-radius: 600px;
+    height: 500px;
+    width: 500px;
+    padding-top: 40px;
+}
+.profile:hover{
+     color: #6a5acd;
+    transform: scale(1.1);
+}
+
+header {
+   background: linear-gradient(to right,rgb(73, 88, 255),rgb(139, 231, 254));
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+}
+
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #222;
+    padding: 10px;
+    text-align: right;
+    z-index: 1000;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    transition: 0.3s;
+    
+}
+
+nav a:hover {
+    color: #6a5acd;
+    transform: scale(1.1);
+}
+
+
+section {
+    padding: 30px;
+    margin: 20px;
+    background: linear-gradient(to right,beige,rgb(255, 255, 255));
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+#about img {
+    border-radius: 50%;
+    border: 3px solid #6a5acd;
+    transition: transform 0.3s;
+}
+
+#about img:hover {
+    transform: scale(1.1);
+}
+
+.project-card {
+    border: 1px solid #000000;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+    
+}
+
+.project-card:hover {
+    background-color: #5e82de;
+    transform: translateY(-5px);
+}
+
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color:#5e82de;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #483d8b;
+    transform: scale(1.05);
+}
+
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #222;
+    color: white;
+}
