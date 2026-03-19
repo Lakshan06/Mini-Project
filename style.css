@@ -36,7 +36,7 @@ nav {
     top: 0;
     width: 100%;
     background-color: #222;
-    padding: 10px;
+    padding: 11px;
     text-align: right;
     z-index: 1000;
 }
@@ -102,7 +102,7 @@ input[type="submit"] {
     color: white;
     border: none;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
 input[type="submit"]:hover {
@@ -113,7 +113,7 @@ input[type="submit"]:hover {
 
 footer {
     text-align: center;
-    padding: 15px;
+    padding: 20px;
     background-color: #222;
     color: white;
 }
