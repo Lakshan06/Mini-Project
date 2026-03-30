@@ -11,11 +11,11 @@ body {
 .profile{
    color: white;
     text-decoration: none;
-    margin: 15px;
+    margin: 150px;
     transition: 0.3s ease; 
     border-radius: 600px;
-    height: 500px;
-    width: 500px;
+    height: 550px;
+    width: 550px;
     padding-top: 40px;
 }
 .profile:hover{
@@ -47,7 +47,7 @@ nav a {
     text-decoration: none;
     margin: 15px;
     transition: 0.3s;
-    
+    border: 30px;
 }
 
 nav a:hover {
